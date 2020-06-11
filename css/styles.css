@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+
+  background-color: #e5e5e5;
+  color: #757575;
+  font-family: Roboto, sans-serif;
+
+  --link-color: #2196f3;
+  --title-color: #212121;
+  --button-color: #ffffff;
+}
+
+/*main-nav*/
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+/*Logo*/
+
+.logo {
+  text-decoration: none;
+}
+
+.logo-web {
+  color: var(--link-color);
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo-studio {
+  margin-right: 85px;
+  color: #000000;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+/* site-nav*/
+
+.site-nav {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.site-nav .site-link:not(:last-child) {
+  margin-right: 50px;
+}
+
+.site-nav .link {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--link-color);
+}
+
+.site-nav .link.current {
+  color: var(--link-color);
+}
+
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+
+  list-style: none;
+  padding: 0px;
+  /*margin: 0px;*/
+}
+
+.auth-nav .auth-con:not(:last-child) {
+  margin-right: 30px;
+}
+
+.auth-nav .links {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
+}
+
+.auth-nav .links:hover,
+.auth-nav .links:focus {
+  color: var(--link-color);
+}
+
+/* hero */
+
+.hero {
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--button-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  color: var(--button-color);
+  background-color: var(--link-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  text-decoration: none;
+
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  text-align: center;
+}
+
+/*section*/
+
+.section-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*features*/
+
+.features {
+  list-style: none;
+  display: flex;
+}
+
+.features-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/*activity*/
+
+.activity {
+  list-style: none;
+  display: flex;
+}
+
+.activity-title {
+  color: var(--button-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+/*team*/
+
+.team {
+  list-style: none;
+  display: flex;
+}
+
+.team-name {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.social {
+  list-style: none;
+}
+
+.clients {
+  list-style: none;
+  display: flex;
+}
+
+/*Foter*/
+
+.footer-address {
+  color: var(--button-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer-call {
+  color: var(--button-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.developed {
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+}
+
+/*---styles portfolio--*/
+
+/*filter*/
+
+.filter {
+  list-style: none;
+  display: flex;
+}
+
+.filter-button {
+  color: var(--title-color);
+  background: #f5f4fa;
+}
+
+.filter-button-hover:hover,
+.filter-button-hover:focus {
+  color: var(--button-color);
+  background: var(--link-color);
+}
+
+/*project*/
+
+.projects {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects .itom {
+  width: 370px;
+  margin-right: 30px;
+}
+
+.projects .itom:nth-child(3n) {
+  margin-right: 0;
+}
+
+.projects-link {
+  text-decoration: none;
+}
+.projects-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.projects-text {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.project-fish {
+  color: var(--button-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.container {
+  width: 1230px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
