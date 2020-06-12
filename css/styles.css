@@ -142,6 +142,15 @@ body {
 .features {
   list-style: none;
   display: flex;
+  padding-left: 0px;
+}
+
+.features-itam {
+  width: 270px;
+}
+
+.features .features-itam:not(:last-child) {
+  margin-right: 30px;
 }
 
 .features-title {
@@ -162,6 +171,15 @@ body {
 .activity {
   list-style: none;
   display: flex;
+  padding-left: 0px;
+}
+
+.activity-item {
+  width: 370px;
+}
+
+.activity .activity-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .activity-title {
@@ -176,6 +194,11 @@ body {
 .team {
   list-style: none;
   display: flex;
+  padding-left: 0px;
+}
+
+.team .team-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .team-name {
@@ -198,6 +221,15 @@ body {
 .clients {
   list-style: none;
   display: flex;
+  padding-left: 0px;
+}
+
+.clients-item {
+  width: 170px;
+}
+
+.clients .clients-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /*Foter*/
@@ -237,6 +269,14 @@ body {
 .filter {
   list-style: none;
   display: flex;
+  padding-left: 0px;
+  width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filter .filter-button:not(:last-child) {
+  margin-right: 8px;
 }
 
 .filter-button {
@@ -256,6 +296,7 @@ body {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  padding-left: 0px;
 }
 
 .projects .itom {
@@ -292,7 +333,7 @@ body {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-left: auto;
