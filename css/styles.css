@@ -1,7 +1,7 @@
 body {
   margin: 0;
 
-  background-color: #f5f4fa;
+  background-color: #e1e2eb;
   color: #757575;
   font-family: Roboto, sans-serif;
 
@@ -10,12 +10,27 @@ body {
   --button-color: #ffffff;
 }
 
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*main-nav*/
+
+.header {
+  margin-bottom: 200px;
+}
+
+.header-portfolio {
+  margin-bottom: 110px;
+}
 
 .main-nav {
   display: flex;
   align-items: center;
-  margin-bottom: 200px;
 }
 
 /*Logo*/
@@ -37,6 +52,10 @@ body {
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.2;
+}
+
+.logo-studio.inversia {
+  color: var(--button-color);
 }
 
 /* site-nav*/
@@ -130,6 +149,11 @@ body {
 
 /*section*/
 
+.section-features {
+  margin-bottom: 188px;
+  margin-top: 0px;
+}
+
 .section-title {
   color: var(--title-color);
   font-weight: 700;
@@ -148,7 +172,7 @@ body {
   display: flex;
   padding-left: 0px;
   justify-content: center;
-  margin-bottom: 188px;
+  margin: 0px;
 }
 
 .features-itam {
@@ -184,12 +208,16 @@ body {
 
 /*activity*/
 
+.section-activity {
+  margin-bottom: 188px;
+  margin-top: 0px;
+}
+
 .activity {
   list-style: none;
   display: flex;
   padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 188px;
+  margin: 0px;
 }
 
 .activity-item {
@@ -209,12 +237,17 @@ body {
 
 /*team*/
 
+.section-team {
+  margin-top: 0px;
+  margin-bottom: 188px;
+  background: #f5f4fa;
+}
+
 .team {
   list-style: none;
   display: flex;
   padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 188px;
+  margin: 0px;
   text-align: center;
 }
 
@@ -258,12 +291,18 @@ body {
   margin-bottom: 24px;
 }
 
+/*clients*/
+
+.section-clients {
+  margin-top: 0px;
+  margin-bottom: 95px;
+}
+
 .clients {
   list-style: none;
   display: flex;
   padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 95px;
+  margin: 0px;
 }
 
 .clients-item {
@@ -275,6 +314,15 @@ body {
 }
 
 /*Foter*/
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer-backgraund {
+  background: #2f303a;
+}
 
 .footer-address {
   color: var(--button-color);
@@ -297,6 +345,12 @@ body {
   line-height: 1.1;
 }
 
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+}
+
 .developed {
   color: rgba(255, 255, 255, 0.4);
   font-weight: 400;
@@ -305,6 +359,10 @@ body {
 }
 
 /*---styles portfolio--*/
+
+.pro {
+  margin-bottom: 80px;
+}
 
 /*filter*/
 
@@ -342,7 +400,7 @@ body {
   flex-wrap: wrap;
   padding-left: 0px;
   margin-top: 0px;
-  margin-bottom: 80px;
+  margin-bottom: 0px;
 }
 
 .projects .itom {
@@ -376,20 +434,4 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.6;
-}
-
-.container {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container-footer {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
