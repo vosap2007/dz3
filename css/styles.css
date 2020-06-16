@@ -43,7 +43,9 @@ img {
 /*Logo*/
 
 .logo {
+  display: block;
   text-decoration: none;
+  margin-bottom: 10px;
 }
 
 .logo-web {
@@ -326,6 +328,7 @@ img {
 .footer {
   display: flex;
   align-items: baseline;
+  padding-top: 48px;
 }
 
 .footer-backgraund {
@@ -359,12 +362,25 @@ img {
   font-style: normal;
 }
 
+.footer-mar {
+  margin-right: 69px;
+}
+
+.footer-marrite {
+  margin-right: 94px;
+}
+
 .developed {
   color: rgba(255, 255, 255, 0.4);
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
-  border-top: 2px solid salmon;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 18px;
+  padding-bottom: 21px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /*---styles portfolio--*/
