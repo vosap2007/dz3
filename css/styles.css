@@ -18,6 +18,12 @@ body {
   margin-right: auto;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /*main-nav*/
 
 .header {
@@ -26,6 +32,7 @@ body {
 
 .header-portfolio {
   margin-bottom: 110px;
+  border-bottom: 1px solid #ececec;
 }
 
 .main-nav {
@@ -152,6 +159,7 @@ body {
 .section-features {
   margin-bottom: 188px;
   margin-top: 0px;
+  border-bottom: 1px solid #ececec;
 }
 
 .section-title {
@@ -317,7 +325,7 @@ body {
 
 .footer {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .footer-backgraund {
@@ -356,6 +364,7 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
+  border-top: 2px solid salmon;
 }
 
 /*---styles portfolio--*/
@@ -414,6 +423,7 @@ body {
 
 .projects-link {
   text-decoration: none;
+  display: block;
 }
 .projects-title {
   color: var(--title-color);
